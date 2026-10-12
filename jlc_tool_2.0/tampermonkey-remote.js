@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         JLC_CART_TOOL_2.0-远程更新
 // @namespace    http://tampermonkey.net/
-// @version      4.2.6
+// @version      4.2.13
 // @description  购物车助手2.0
 // @author       Lx
 // @run-at       document-end
@@ -21,6 +21,6 @@
 // @require      https://raw.giteeusercontent.com/mlx6_admin/public_resource_lc/raw/master/public/ajaxHookerLatest.js
 // @require      https://raw.giteeusercontent.com/mlx6_admin/public_resource_lc/raw/master/public/lccouponcss.js
 
-// @require      https://raw.giteeusercontent.com/mlx6_admin/public_resource_lc/raw/master/lc-cart/tampermonkey-vue.user-4_2_6.js
+// @require      https://raw.giteeusercontent.com/mlx6_admin/public_resource_lc/raw/master/lc-cart/tampermonkey-vue.user-4_2_13.js
 
 // ==/UserScript==
