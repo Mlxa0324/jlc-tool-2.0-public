@@ -1,16 +1,13 @@
 // ==UserScript==
 // @name         JLC_CART_TOOL_2.0-本地调试
 // @namespace    http://tampermonkey.net/
-// @version      4.2.14
+// @version      4.2.16
 // @description  购物车助手2.0
 // @author       Lx
 // @run-at       document-end
 // @grant        GM_xmlhttpRequest
 // @grant        GM.setClipboard
 // @grant        GM_openInTab
-// @grant        GM_cookie
-// @grant        GM_setValue
-// @grant        GM_getValue
 // @grant        unsafeWindow
 // @connect      szlcsc.com
 // @connect      gitee.com
