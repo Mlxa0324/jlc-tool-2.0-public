@@ -1,18 +1,25 @@
 // ==UserScript==
 // @name         JLC_CART_TOOL_2.0-远程更新
 // @namespace    http://tampermonkey.net/
-// @version      4.2.13
+// @version      4.2.14
 // @description  购物车助手2.0
 // @author       Lx
 // @run-at       document-end
 // @grant        GM_xmlhttpRequest
 // @grant        GM.setClipboard
 // @grant        GM_openInTab
+// @grant        GM_cookie
+// @grant        GM_setValue
+// @grant        GM_getValue
 // @grant        unsafeWindow
 // @connect      szlcsc.com
 // @connect      gitee.com
 // @connect      raw.giteeusercontent.com
 // @connect      scriptcat.org
+// @match        https://*.szlcsc.com/*
+// @match        https://szlcsc.com/*
+// @match        https://*.jlc.com/*
+// @match        https://jlc.com/*
 // @match        https://cart.szlcsc.com/cart/display.html**
 // @match        https://list.szlcsc.com/brand/*.html**
 // @require      https://raw.giteeusercontent.com/mlx6_admin/public_resource_lc/raw/master/public/jquery-351.js
@@ -21,6 +28,6 @@
 // @require      https://raw.giteeusercontent.com/mlx6_admin/public_resource_lc/raw/master/public/ajaxHookerLatest.js
 // @require      https://raw.giteeusercontent.com/mlx6_admin/public_resource_lc/raw/master/public/lccouponcss.js
 
-// @require      https://raw.giteeusercontent.com/mlx6_admin/public_resource_lc/raw/master/lc-cart/tampermonkey-vue.user-4_2_13.js
+// @require      https://raw.giteeusercontent.com/mlx6_admin/public_resource_lc/raw/master/lc-cart/tampermonkey-vue.user-4_2_14.js
 
 // ==/UserScript==
