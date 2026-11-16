@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         JLC_CART_TOOL_2.0-本地调试
 // @namespace    http://tampermonkey.net/
-// @version      4.2.16
+// @version      4.2.17
 // @description  购物车助手2.0
 // @author       Lx
 // @run-at       document-end
@@ -13,8 +13,6 @@
 // @connect      gitee.com
 // @connect      raw.giteeusercontent.com
 // @connect      scriptcat.org
-// @match        https://*.szlcsc.com/*
-// @match        https://szlcsc.com/*
 // @match        https://*.jlc.com/*
 // @match        https://jlc.com/*
 // @match        https://cart.szlcsc.com/cart/display.html**
